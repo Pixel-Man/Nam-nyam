@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic"
+        rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+  <title>Нам-ням</title>
+</head>
+<body>
+
+<header class="main-header">
+  <nav class="main-header__nav  main-header__nav--closed  main-header__nav--opened">
+    <a class="main-header__nav-logo" href="#main">
+      <picture>
+        <source srcset="img/logo@3x.png 3x, img/logo@2x.png 2x">
+        <img src="img/logo.png" alt="Нам-Ням">
+      </picture>
+    </a>
+    <div class="main-header__nav-toggle">
+      <button>Меню</button>
+    </div>
+    <ul class="main-header__nav-list">
+      <li class="main-header__nav-item">
+        <a href="" class="main-header__nav-link">Ассортимент</a>
+      </li>
+      <li class="main-header__nav-item">
+        <a href="" class="main-header__nav-link  order-js">Заказать</a>
+      </li>
+      <li class="main-header__nav-item">
+        <a href="" class="main-header__nav-link">О нас</a>
+      </li>
+    </ul>
+    <div class="main-header__nav-contacts">
+      <a class="main-header__nav-tel" href="tel:+79672908131">+7
+        (967) 290-81-31</a>
+      <a class="main-header__nav-mail"
+         href="mailto:6452239@mail.ru">6452239@mail.ru</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="main-header__nav-contacts--baby-bear">
+    <a class="main-header__nav-tel" href="tel:+79672908131"><span></span>+7
+      (967) 290-81-31</a>
+    <a class="main-header__nav-mail"
+       href="mailto:6452239@mail.ru"><span></span>6452239@mail.ru</a>
+  </div>
+  <section class="main-header__order">
+    <div class="main-header__order-wrapper">
+      <h1 class="main-header__order__title">Организация питания сотрудников на безупречно высоком
+        уровне.</h1>
+      <p class="main-header__order__description">Оперативная доставка заказа в любую точку Москвы и
+        по
+        области.</p>
+      <span class="main-header__order__play"></span>
+      <a href="#" class="main-header__order__btn  btn  order-js">Получить полное меню</a>
+    </div>
+  </section>
+  <section class="main-timer">
+    <div class="main-timer__wrapper">
+      <h2 class="main-timer__title">Успейте заказать доставку на завтра</h2>
+      <div class="main-timer__timer" id="timer">
+        <div id="timer-hour">04</div>
+        <span>:</span>
+        <div id="timer-minute">59</div>
+        <span>:</span>
+        <div id="timer-second">32</div>
+      </div>
+      <div class="main-timer__timer-label"><i>Часа</i><i>Минут</i><i>Секунд</i></div>
+      <a class="main-timer__btn  btn  order-js" href="#">Сделать заказ</a>
+    </div>
+  </section>
+  <section class="main-aboutus">
+    <div class="main-aboutus__wrapper">
+      <h2 class="main-aboutus__title">О нас</h2>
+      <ul class="main-aboutus__list" id="slidr-aboutus">
+        <li class="main-aboutus__item" data-slidr="one">
+          <p
+                  class="main-aboutus__item-description  main-aboutus__item-description--1"><i></i>Собственное
+            производство</p>
+        </li>
+        <li class="main-aboutus__item" data-slidr="two">
+          <p
+                  class="main-aboutus__item-description  main-aboutus__item-description--2"><i></i>Разнообразное,
+            постоянно
+            обновляемое меню</p>
+        </li>
+        <li class="main-aboutus__item" data-slidr="three">
+          <p
+                  class="main-aboutus__item-description  main-aboutus__item-description--3"><i></i>Используем
+            только натуральные продукты.
+            Без
+            консервантов и химических добавок</p>
+        </li>
+        <li class="main-aboutus__item" data-slidr="four">
+          <p
+                  class="main-aboutus__item-description  main-aboutus__item-description--4"><i></i>Оптимальная
+            стоимость блюд</p>
+        </li>
+        <li class="main-aboutus__item" data-slidr="five">
+          <p
+                  class="main-aboutus__item-description  main-aboutus__item-description--5"><i></i>Своевременная
+            доставка заказа по Москве и
+            области</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="main-popular">
+    <h2 class="main-popular__title">Популярные<br>
+      блюда</h2>
+    <ol class="main-popular__list">
+      <li class="main-popular__item  main-popular__item--1">
+        <span class="main-popular__label">Салаты</span>
+        <div class="main-popular__item-wrapper">
+          <p class="main-popular__item-description">Мюсли с фруктами</p>
+          <p class="main-popular__item-price">Стоимость: <br><span>150 рублей</span></p>
+          <a href="" class="main-popular__item-btn btn  order-js">Заказать</a>
+        </div>
+      </li>
+      <li class="main-popular__item  main-popular__item--2">
+        <span class="main-popular__label">Первые
+        блюда</span>
+        <div class="main-popular__item-wrapper">
+          <p class="main-popular__item-description">Первые блюда</p>
+          <p class="main-popular__item-price">Стоимость: <br><span>150 рублей</span></p>
+          <a href="" class="main-popular__item-btn btn  order-js">Заказать</a>
+        </div>
+      </li>
+      <li class="main-popular__item  main-popular__item--3">
+        <span class="main-popular__label">Вторые блюда</span>
+        <div class="main-popular__item-wrapper">
+          <p class="main-popular__item-description">Вторые блюда</p>
+          <p class="main-popular__item-price">Стоимость: <br><span>150 рублей</span></p>
+          <a href="" class="main-popular__item-btn btn  order-js">Заказать</a>
+        </div>
+      </li>
+      <li class="main-popular__item  main-popular__item--4">
+        <span class="main-popular__label">Гарниры</span>
+        <div class="main-popular__item-wrapper">
+          <p class="main-popular__item-description">Гарниры</p>
+          <p class="main-popular__item-price">Стоимость: <br><span>150 рублей</span></p>
+          <a href="" class="main-popular__item-btn btn  order-js">Заказать</a>
+        </div>
+      </li>
+      <li class="main-popular__item  main-popular__item--5">
+        <span class="main-popular__label">Выпечка</span>
+        <div class="main-popular__item-wrapper">
+          <p class="main-popular__item-description">Выпечка</p>
+          <p class="main-popular__item-price">Стоимость: <br><span>150 рублей</span></p>
+          <a href="" class="main-popular__item-btn btn  order-js">Заказать</a>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="main-order">
+    <div class="main-order__wrapper">
+      <h2 class="main-order__title">Получите полное меню прямо сейчас </h2>
+      <form action="#" class="main-order__form" method="post">
+        <label for="order-name" class="main-order__form-label">Ваше имя</label>
+        <input type="text" class="main-order__form-input" id="order-name"
+               placeholder="Ваше имя" required>
+        <label for="order-mail" class="main-order__form-label">Ваш email</label>
+        <input type="email" class="main-order__form-input" id="order-mail"
+               pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"
+               title="В формате xxxxx@xxx.xx" placeholder="Ваш email" required>
+        <label for="order-tel" class="main-order__form-label">Ваш номер телефона</label>
+        <input type="tel" class="main-order__form-input" id="order-tel"
+               pattern="(\+?\d[- .]*){7,13}"
+               title="Международный, государственный или местный телефонный номер"
+               placeholder="Ваш номер телефона"
+               required>
+        <input type="checkbox"
+               class="main-order__form-input  main-order__form-input--checkbox"
+               id="order-checkbox" checked>
+        <label for="order-checkbox"
+               class="main-order__form-label  main-order__form-label--checkbox">Согласен с <a
+                href="#">политикой конфидециальности</a></label>
+        <input type="submit" class="main-order__btn  btn" value="Получить">
+      </form>
+    </div>
+  </section>
+  <section class="main-schema">
+    <h2 class="main-schema__title">Схема заказа</h2>
+    <ol class="main-schema__list" id="slidr-schema">
+      <li class="main-schema__item" data-slidr="one">
+        <span class="main-schema__item-arrow"></span>
+        <p class="main-schema__item-description  main-schema__item-description--1">Звоните
+          нам или оставляете заявку на сайте
+        </p>
+      </li>
+      <li class="main-schema__item" data-slidr="two">
+        <span class="main-schema__item-arrow"></span>
+        <p
+                class="main-schema__item-description  main-schema__item-description--2">
+          Перезваниваем
+          вам что бы обсудить меню и
+          уточнить время доставки</p>
+      </li>
+      <li class="main-schema__item" data-slidr="three">
+        <span class="main-schema__item-arrow"></span>
+        <p class="main-schema__item-description  main-schema__item-description--3">Готовим и
+          доставляем еду по указанному
+          адресу</p>
+      </li>
+      <li class="main-schema__item" data-slidr="fore">
+        <p class="main-schema__item-description  main-schema__item-description--4">Вы
+          наслаждаетесь вкусным завтраком или
+          обедом</p>
+      </li>
+    </ol>
+    <p class="main-schema__description">Бесплатная доставка <b>от 3000 рублей</b><br>
+      <span>Хотите получить консультацию по телефону звоните</span><br>
+    </p>
+    <p class="main-schema__description-tel">+7(967) 290-81-31</p>
+  </section>
+</main>
+
+<footer class="main-footer">
+  <div class="main-footer__wrapper">
+    <div class="main-footer__left-coll">
+      <h2 class="main-footer__title">НАМ-НЯМ — доставка обедов в офис</h2>
+      <p class="main-footer__address">г. Москва,<br> Шоссе Фрезер, д.17А стр. 5
+        (м.Авиамоторная)</p>
+      <a href="mailto:catering@nam-nyam.ru" class="main-footer__mail">catering@nam-nyam.ru</a>
+    </div>
+    <div class="main-footer__right-coll">
+      <a href="tel:+79037750565" class="main-footer__tel">+7 (903) 775-05-65</a>
+      <a href="skype:nam-nyam&call" class="main-footer__skype">nam-nyam</a>
+    </div>
+  </div>
+</footer>
+
+<section class="popup-order  popup-order--closed">
+  <div class="main-order">
+    <div class="popup-order__wrapper">
+      <h2 class="main-order__title">Сделать заказ</h2>
+      <form action="#" class="main-order__form" method="post">
+        <label for="popup-order-name" class="main-order__form-label">Ваше имя</label>
+        <input type="text" class="main-order__form-input" id="popup-order-name"
+               placeholder="Ваше имя" required>
+        <label for="popup-order-mail" class="main-order__form-label">Ваш email</label>
+        <input type="email" class="main-order__form-input" id="popup-order-mail"
+               pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"
+               title="В формате xxxxx@xxx.xx" placeholder="Ваш email" required>
+        <label for="popup-order-tel" class="main-order__form-label">Ваш номер телефона</label>
+        <input type="tel" class="main-order__form-input" id="popup-order-tel"
+               pattern="(\+?\d[- .]*){7,13}"
+               title="Международный, государственный или местный телефонный номер"
+               placeholder="Ваш номер телефона"
+               required>
+        <input type="checkbox"
+               class="main-order__form-input  main-order__form-input--checkbox"
+               id="popup-order-checkbox" checked required>
+        <label for="popup-order-checkbox"
+               class="main-order__form-label  main-order__form-label--checkbox">Согласен с <a
+                href="#">политикой конфидециальности</a></label>
+        <input type="submit" class="main-order__btn  btn" value="Заказать">
+        <input type="button" class="main-order__btn  main-order__btn--closed  btn"
+               value="Закрыть">
+      </form>
+      <button class="popup-order__btn-closed">&#128937;</button>
+    </div>
+  </div>
+</section>
+
+<script src="js/slider.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
